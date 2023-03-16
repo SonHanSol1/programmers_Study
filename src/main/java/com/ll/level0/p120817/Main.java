@@ -1,6 +1,5 @@
 package com.ll.level0.p120817;
-
-import java.sql.SQLOutput;
+//https://school.programmers.co.kr/learn/courses/30/lessons/120817
 
 public class Main {
     public static void main(String[] args) {
@@ -22,3 +21,9 @@ class Solution {
         return answer/numbers.length;
     }
 }
+
+//class Solution {
+//    public double solution(int[] numbers) {
+//        return Arrays.stream(numbers).average().orElse(0);
+//    }
+//}
