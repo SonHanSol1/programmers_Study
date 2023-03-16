@@ -1,5 +1,6 @@
 package com.ll.level0.p120830;
 //https://school.programmers.co.kr/learn/courses/30/lessons/120830
+//양꼬치
 public class Main {
     public static void main(String[] args){
 
