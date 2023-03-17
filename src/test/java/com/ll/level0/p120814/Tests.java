@@ -17,7 +17,7 @@ public class Tests {
         assertThat(new com.ll.level0.p120814.Solution().solution(1)).isEqualTo(1);
     }
     @Test
-    @DisplayName("7=> 1")
+    @DisplayName("15=> 3")
     void t3() {
         assertThat(new com.ll.level0.p120814.Solution().solution(15)).isEqualTo(3);
     }
