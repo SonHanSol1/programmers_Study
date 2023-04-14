@@ -25,17 +25,5 @@ public class Tests {
     void t3() {
         assertThat(new Solution().solution(543)).isEqualTo(12);
     }
-
-    @Test
-    @DisplayName("180도가 입력되었을 때의 결과는 4")
-    void t4() {
-        assertThat(new Solution().solution(180)).isEqualTo(4);
-    }
-
-    @Test
-    @DisplayName("90도가 입력되었을 때의 결과는 2")
-    void t5() {
-        assertThat(new Solution().solution(90)).isEqualTo(2);
-    }
 }
 
