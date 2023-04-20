@@ -11,6 +11,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class Tests {
     @Test
     @DisplayName("23 => 5")
+
     void t1() {
         assertThat(new com.ll.level0.p120837.Solution().solution(23)).isEqualTo(5);
     }
