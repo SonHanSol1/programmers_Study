@@ -6,29 +6,27 @@ package com.ll.level0.p120909;
 public class Main {
 
 }
-class Solution {
-    public int solution(int n) {
-        int answer = 0;
-        for(int i =0; i * i <= n; i++){
-            if(i*i == n){
-                answer = 1;
-            }
-            else{
-                answer = 2;
-            }
-        }
-        return answer;
-    }
-}
+//class Solution {
+//    public int solution(int n) {
+//        int answer = 0;
+//        for(int i =0; i * i <= n; i++){
+//            if(i*i == n){
+//                answer = 1;
+//            }
+//            else{
+//                answer = 2;
+//            }
+//        }
+//        return answer;
+//    }
+//}
 /*
 class Solution {
     public int solution(int n) {
         int answer = 0;
-        double disc = Math.sqrt(n);
-        if(n%disc==0){
+        if (n % Math.sqrt(n) == 0) {
             answer = 1;
-        }
-        else{
+        } else {
             answer = 0;
         }
         return answer;
