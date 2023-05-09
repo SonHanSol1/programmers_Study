@@ -15,10 +15,10 @@ class Solution {
         int answer = 0;
 
         Arrays.sort(numbers);
-        int start = numbers[0] * numbers[1];
+        int first = numbers[0] * numbers[1];
         int last = numbers[numbers.length-1] * numbers[numbers.length-2];
-        if(start > last){
-            answer = start;
+        if(first > last){
+            answer = first;
         }
         else{
             answer = last;
