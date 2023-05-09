@@ -23,7 +23,7 @@ class Solution {
         else{
             answer = last;
         }
-        //answer = Math.max(start, last);
+        //answer = Math.max(first, last);
         return answer;
     }
 }
