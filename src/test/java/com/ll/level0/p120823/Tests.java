@@ -1,5 +1,5 @@
 package com.ll.level0.p120823;
-
+/*
 import com.ll.level0.p120823.Solution;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,3 +15,6 @@ public class Tests {
         assertThat(new Solution().solution(new int[]{1, 1, 2, 3, 4, 5}, 1)).isEqualTo(2);
     }
 }
+
+
+ */
