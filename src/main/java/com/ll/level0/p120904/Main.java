@@ -12,7 +12,7 @@ class Solution {
         String numStr= Integer.toString(num);
         String kStr = Integer.toString(k);
         answer = numStr.indexOf(kStr);
-        if(answer>0)
+        if(answer>=0)
         {
             answer += 1;
         }
