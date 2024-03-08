@@ -50,7 +50,7 @@ public class Main {
 class Solution {
     public String solution(String s) {
         char[] chars = s.toCharArray();
-        Map<Character, Integer> charMap = new HashMap();
+        Map<Character, Integer> charMap = new HashMap<>();
         for(char c : chars){
             charMap.put(c, charMap.getOrDefault(c, 0) +1);
         }
