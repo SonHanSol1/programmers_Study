@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-//https://school.programmers.co.kr/learn/courses/30/lessons/120583
-// 중복된 숫자 개수
+//https://school.programmers.co.kr/learn/courses/30/lessons/120852
+// 소인수분해
 public class Tests {
     @Test
     @DisplayName("12 => [2, 3]")
